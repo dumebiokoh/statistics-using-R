@@ -1,4 +1,6 @@
 install.packages("caret")
+install.packages("caTools")
+install.packages("ROCR")
 library(caret)
 library("caTools")
 library("ROCR")
