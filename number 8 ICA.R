@@ -2,7 +2,7 @@
 remove.packages("readxl")
 library(readxl)
 #LOAD DATA
-whiteHouse <- read_xlsx("C:\\Users\\SDI\\Documents\\Rprogramming\\2010_White_House_Staff.xlsx")
+whiteHouse <- read_xlsx("https://github.com/dumebiokoh/statistics-using-R/blob/main/2010_White_House_Staff.xlsx")
 View(whiteHouse)
 #MEASURE OF CENTRAL TENDENCY
 #MEAN
