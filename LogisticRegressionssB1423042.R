@@ -2,7 +2,7 @@ install.packages("caret")
 library(caret)
 library("caTools")
 library("ROCR")
-BoxOfficeData <- read.csv("C:https://github.com/dumebiokoh/statistics-using-R/blob/main/boxOffice.csv", header = TRUE)
+BoxOfficeData <- read.csv("boxOffice.csv", header = TRUE)
 #names(BoxOfficeData)
 BoxOfficeData
 #split the data
